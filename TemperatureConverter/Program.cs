@@ -93,7 +93,7 @@ namespace TemperatureConverter
             }
             else if(choice == "Rankine")
             {
-                Console.WriteLine("How much kelvin would you like to convert");
+                Console.WriteLine("How much Rankine would you like to convert");
                 Console.Write("Answer: ");
                 double answer = double.Parse(Console.ReadLine());
                 Console.WriteLine();
